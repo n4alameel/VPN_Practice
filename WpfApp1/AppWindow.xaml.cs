@@ -72,5 +72,29 @@ namespace WpfApp1
             this.Hide();
             locationWindow.Show();
         }
+
+        private void MonoDefenseBut_Click(object sender, RoutedEventArgs e)
+        {
+            MonoDefenseWindow monoDefenseWindow = new MonoDefenseWindow();
+            monoDefenseWindow.Owner = this;
+            this.Hide();
+            monoDefenseWindow.Show();
+        }
+
+        private void BuyPremium_Click(object sender, RoutedEventArgs e)
+        {
+            PremiumWindow premiumWindow = new PremiumWindow();
+            premiumWindow.Owner = this;
+            this.Hide();
+            premiumWindow.Show();
+        }
+
+        private void ChooseServer_Click(object sender, RoutedEventArgs e)
+        {
+            ServersWindow serversWindow = new ServersWindow();
+            serversWindow.Owner = this;
+            this.Hide();
+            serversWindow.Show();
+        }
     }
 }

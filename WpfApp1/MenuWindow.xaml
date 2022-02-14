@@ -16,14 +16,14 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="511" Height="43"/>
+                    <Button Content="Button" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="511" Height="43" Click="Button_Click"/>
                     <Button Content="Button" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top" Width="511" Height="43"/>
                     <Button Content="Button" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="511" Height="43"/>
                     <Button Content="Button" HorizontalAlignment="Left" Margin="10,222,0,0" VerticalAlignment="Top" Width="511" Height="43"/>
                     <Button Content="Button" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" Width="511" RenderTransformOrigin="0.184,0.167" Height="43"/>
                 </Grid>
             </TabItem>
-            <TabItem Header="Настройки">
+            <TabItem Header="Настройки" Height="23" Margin="-2.2,-2,-1.6,-0.2" VerticalAlignment="Bottom">
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem Header="Информация" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top" Width="94" Margin="-2.4,-2,-38,0">

@@ -16,8 +16,9 @@
         <Button x:Name="Close" Content="x" HorizontalAlignment="Left" Margin="519,10,-0.4,0" VerticalAlignment="Top" Width="75" Click="Close_Click"/>
         <Button x:Name="Minimize" Content="_" HorizontalAlignment="Left" Margin="444,10,0,0" VerticalAlignment="Top" Width="75" Click="Minimize_Click"/>
         <Button x:Name="EventsButton" Content="События" HorizontalAlignment="Left" Margin="500,65,0,0" VerticalAlignment="Top" Width="75" Click="EventsButton_Click"/>
-        <Button x:Name="BuyPremium" Content="Premium" HorizontalAlignment="Left" Margin="179,105,0,0" VerticalAlignment="Top" Width="261" Height="44"/>
+        <Button x:Name="BuyPremium" Content="Premium" HorizontalAlignment="Left" Margin="179,105,0,0" VerticalAlignment="Top" Width="261" Height="44" Click="BuyPremium_Click"/>
         <Button x:Name="Location" Content="Location" HorizontalAlignment="Left" Margin="230,194,0,0" VerticalAlignment="Top" Width="160" Height="70" Click="Location_Click"/>
-        <Button x:Name="ChooseServer" Content="Button" HorizontalAlignment="Left" Margin="194,747,0,0" VerticalAlignment="Top" Width="196" Height="37"/>
+        <Button x:Name="ChooseServer" Content="Server" HorizontalAlignment="Left" Margin="194,747,0,0" VerticalAlignment="Top" Width="196" Height="37" Click="ChooseServer_Click"/>
+        <Button x:Name="MonoDefenseBut" Content="MonoDefense" HorizontalAlignment="Left" Margin="263,65,0,0" VerticalAlignment="Top" Width="86" Click="MonoDefenseBut_Click"/>
     </Grid>
 </Window>

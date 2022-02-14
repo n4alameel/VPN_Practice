@@ -70,8 +70,17 @@
     <Compile Include="MenuWindow.xaml.cs">
       <DependentUpon>MenuWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MonoDefenseWindow.xaml.cs">
+      <DependentUpon>MonoDefenseWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PremiumWindow.xaml.cs">
+      <DependentUpon>PremiumWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ServersWindow.xaml.cs">
+      <DependentUpon>ServersWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="vpn.cs" />
     <Page Include="AppWindow.xaml">
@@ -106,7 +115,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MonoDefenseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PremiumWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Register.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ServersWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
