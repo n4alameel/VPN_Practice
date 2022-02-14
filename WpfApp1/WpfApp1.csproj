@@ -58,6 +58,9 @@
     <Compile Include="AppWindow.xaml.cs">
       <DependentUpon>AppWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BuySubscribeWindow.xaml.cs">
+      <DependentUpon>BuySubscribeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EnterKey.xaml.cs">
       <DependentUpon>EnterKey.xaml</DependentUpon>
     </Compile>
@@ -84,6 +87,10 @@
     </Compile>
     <Compile Include="vpn.cs" />
     <Page Include="AppWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BuySubscribeWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

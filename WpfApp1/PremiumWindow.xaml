@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="PremiumWindow" Height="800" Width="600">
+        Title="PremiumWindow" Height="800" Width="600" WindowStyle="None">
     <Grid>
-        
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="0,0,-0.4,0" Stroke="Black" VerticalAlignment="Top" Width="594" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown" StrokeThickness="0"/>
+        <Button x:Name="Close" Content="x" HorizontalAlignment="Left" Margin="519,0,-0.4,0" VerticalAlignment="Top" Width="75" Click="Close_Click"/>
+        <Button x:Name="Minimize" Content="_" HorizontalAlignment="Left" Margin="444,0,0,0" VerticalAlignment="Top" Width="75" Click="Minimize_Click"/>
+        <Button x:Name="Hide" Content="x" HorizontalAlignment="Left" Margin="509,63,0,0" VerticalAlignment="Top" Width="75" Click="Hide_Click"/>
+        <Button x:Name="Back" Content="&lt;-" HorizontalAlignment="Left" Margin="31,63,0,0" VerticalAlignment="Top" Width="75" Click="Back_Click"/>
+        <Button x:Name="_1year" Content="1 год" HorizontalAlignment="Left" Margin="31,124,0,0" VerticalAlignment="Top" Width="543" RenderTransformOrigin="0.424,0.167" Height="57" Click="_1year_Click"/>
+        <Button x:Name="Infinity" Content="Вечность" HorizontalAlignment="Left" Margin="31,181,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="Infinity_Click"/>
+        <Button x:Name="_7days" Content="7 дней" HorizontalAlignment="Left" Margin="31,238,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="_7days_Click"/>
+        <Button x:Name="_1month" Content="1 месяц" HorizontalAlignment="Left" Margin="31,295,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="_1month_Click"/>
+        <Button x:Name="PersonalServer" Content="Личный сервер" HorizontalAlignment="Left" Margin="31,426,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
+        <Button x:Name="PersonalIP" Content="Личный IP" HorizontalAlignment="Left" Margin="31,498,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
+        <Button x:Name="AdditionalSlots" Content="Доп. слоты" HorizontalAlignment="Left" Margin="31,567,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
     </Grid>
 </Window>
