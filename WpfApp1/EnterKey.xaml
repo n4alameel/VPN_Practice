@@ -12,6 +12,8 @@
             <ColumnDefinition Width="183*"/>
             <ColumnDefinition Width="394*"/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="nonClientArea" Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Margin="0,-10,-0.4,0" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="594" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
+
         <TextBox x:Name="Pass1" HorizontalAlignment="Left" Height="76" Margin="2.4,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" UndoLimit="1" TextChanged="Pass1_TextChanged" RenderTransformOrigin="-0.246,0.204" Grid.Column="1" FontSize="24"/>
         <TextBox x:Name="Pass2" HorizontalAlignment="Left" Height="76" Margin="112.4,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65" UndoLimit="3" RenderTransformOrigin="-0.094,0.52" TextChanged="Pass2_TextChanged" Grid.Column="1" FontSize="24"/>
         <Button Content="&lt;-" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" Grid.ColumnSpan="2"/>
@@ -24,8 +26,8 @@
         <Label x:Name="Label1" Content="Label" Grid.Column="2" HorizontalAlignment="Left" Margin="70.8,495,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
         <Label Content="Возникли проблемы?" Grid.Column="1" HorizontalAlignment="Left" Margin="100.2,732,0,12.4" Grid.ColumnSpan="2"/>
         <Label Content="или нажмите кнопку подтверждения в пиьме" Grid.Column="1" HorizontalAlignment="Left" Margin="141.2,545,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Label Content="Введите код, отправленный на ваш email&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="155.2,298,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Label Content="Подтверждение учетной записи&#xD;&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="0,232,0,0" VerticalAlignment="Top"/>
+        <Label Content="Введите код, отправленный на ваш email&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="155.2,298,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label Content="Подтверждение учетной записи&#xA;" Grid.Column="2" HorizontalAlignment="Left" Margin="0,232,0,0" VerticalAlignment="Top"/>
         <Button x:Name="Close" Content="x" Grid.Column="2" HorizontalAlignment="Left" Margin="320,0,-1.4,0" VerticalAlignment="Top" Width="75" Click="Close_Click"/>
         <Button x:Name="Minimize" Content="_" Grid.Column="2" HorizontalAlignment="Left" Margin="245,0,0,0" VerticalAlignment="Top" Width="75" Click="Minimize_Click"/>
 

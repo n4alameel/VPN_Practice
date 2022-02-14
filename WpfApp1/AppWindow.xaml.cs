@@ -96,5 +96,10 @@ namespace WpfApp1
             this.Hide();
             serversWindow.Show();
         }
+
+        private void nonClientArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

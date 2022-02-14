@@ -10,6 +10,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="594" Margin="0,0,-0.4,0" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
+
         <Button x:Name="Close" Content="x" HorizontalAlignment="Left" Margin="519,10,-0.4,0" VerticalAlignment="Top" Width="75" Click="Close_Click"/>
         <Button x:Name="Minimize" Content="_" HorizontalAlignment="Left" Margin="444,10,0,0" VerticalAlignment="Top" Width="75" Click="Minimize_Click"/>
         <Button x:Name="Hide" Content="x" HorizontalAlignment="Left" Margin="488,86,0,0" VerticalAlignment="Top" Width="75" Click="Hide_Click"/>

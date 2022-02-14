@@ -82,5 +82,10 @@ namespace WpfApp1
         {
             WindowState = WindowState.Minimized;
         }
+
+        private void nonClientArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

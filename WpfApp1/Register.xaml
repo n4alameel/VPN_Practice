@@ -11,16 +11,18 @@
             <ColumnDefinition Width="171*"/>
             <ColumnDefinition Width="422*"/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="594" Grid.ColumnSpan="2" Margin="0,0,-0.4,0" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
+
         <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="81,263,0,0" VerticalAlignment="Top" Height="52" Width="433" Grid.ColumnSpan="2"/>
         <TextBox x:Name="Email" HorizontalAlignment="Left" Height="52" Margin="81,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="433" Grid.ColumnSpan="2"/>
         <PasswordBox x:Name="Confirm" HorizontalAlignment="Left" Margin="81,357,0,0" VerticalAlignment="Top" Height="53" Width="433" Grid.ColumnSpan="2"/>
         <CheckBox x:Name="Agreement" Content="Я прочитал(-а) и согласен(-на) с" HorizontalAlignment="Left" Margin="91,451,0,0" VerticalAlignment="Top" Height="22" Width="244" Click="Agreement_Clicked" Grid.ColumnSpan="2"/>
-        <CheckBox x:Name="Ads" Content="Я согласен(-на) на получение новостей и рекламной рассылки&#xD;&#xA;" HorizontalAlignment="Left" Margin="91,493,0,0" VerticalAlignment="Top" Height="19" Grid.ColumnSpan="2"/>
+        <CheckBox x:Name="Ads" Content="Я согласен(-на) на получение новостей и рекламной рассылки&#xA;" HorizontalAlignment="Left" Margin="91,493,0,0" VerticalAlignment="Top" Height="19" Grid.ColumnSpan="2"/>
         <Button x:Name="Create" Content="Создать" HorizontalAlignment="Left" Margin="261.6,530,0,0" VerticalAlignment="Top" Width="136" Height="38" Click="Create_Click" Grid.Column="1"/>
         <Button x:Name="LogIn" Content="Войти" HorizontalAlignment="Left" Margin="114.6,731,0,0" VerticalAlignment="Top" Width="98" Height="29" Click="LogIn_Click" Grid.Column="1"/>
         <Button x:Name="Facebook" Content="Facebook" HorizontalAlignment="Left" Margin="71,675,0,0" VerticalAlignment="Top" Width="137" Height="39" Grid.ColumnSpan="2"/>
         <Button x:Name="Google" Content="Google" HorizontalAlignment="Left" Margin="261.6,675,0,0" VerticalAlignment="Top" Width="126" Height="39" Grid.Column="1"/>
-        <Label x:Name="EmailLab" Content="Email&#xD;&#xA;" HorizontalAlignment="Left" Margin="81,128,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="EmailLab" Content="Email&#xA;" HorizontalAlignment="Left" Margin="81,128,0,0" VerticalAlignment="Top"/>
         <Label x:Name="PassLab" Content="Пароль" HorizontalAlignment="Left" Margin="81,241,0,0" VerticalAlignment="Top" Height="29" Width="61"/>
         <Label x:Name="ConfirmLab" Content="Повторите пароль" HorizontalAlignment="Left" Margin="81,332,0,0" VerticalAlignment="Top" Height="30" Width="141" Grid.ColumnSpan="2"/>
         <Label x:Name="ContinueWith" Content="или продолжить с" HorizontalAlignment="Left" Margin="96.6,639,0,0" VerticalAlignment="Top" Grid.Column="1"/>

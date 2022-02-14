@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="600" WindowStyle="None">
     <Grid Margin="0,0,-6.4,-20">
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="590" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
         <TextBox x:Name="Email" HorizontalAlignment="Left" Height="49" Margin="81,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="397"/>
         <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="84,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="46" Width="397">
             <PasswordBox.RenderTransform>

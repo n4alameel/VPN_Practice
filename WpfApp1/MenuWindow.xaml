@@ -10,6 +10,8 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="594" Margin="0,0,-0.4,0" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
+
         <TabControl HorizontalAlignment="Left" Height="657" Margin="21,56,0,0" VerticalAlignment="Top" Width="537">
             <TabItem Header="Аккаунт">
                 <Grid Background="#FFE5E5E5">

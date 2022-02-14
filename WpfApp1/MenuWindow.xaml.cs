@@ -47,5 +47,10 @@ namespace WpfApp1
             const string url = "https://progtask.ru";
             Process.Start(url);
         }
+
+        private void nonClientArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

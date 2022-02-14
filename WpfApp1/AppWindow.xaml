@@ -10,9 +10,10 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
+        <Rectangle x:Name="nonClientArea" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="29" Stroke="Black" StrokeThickness="0" VerticalAlignment="Top" Width="594" Margin="0,0,-0.4,0" MouseLeftButtonDown="nonClientArea_MouseLeftButtonDown"/>
         <Button x:Name="Start" Content="Старт" HorizontalAlignment="Left" Margin="212,627,0,0" VerticalAlignment="Top" Width="193" Height="82" Click="Start_Click"/>
         <Button x:Name="Stop" Content="Стоп" HorizontalAlignment="Left" Margin="212,627,0,0" VerticalAlignment="Top" Width="193" Height="82" Click="Stop_Click"/>
-        <Button Content="=&#xD;&#xA;-" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click"/>
+        <Button Content="=&#xA;-" HorizontalAlignment="Left" Margin="10,65,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click"/>
         <Button x:Name="Close" Content="x" HorizontalAlignment="Left" Margin="519,10,-0.4,0" VerticalAlignment="Top" Width="75" Click="Close_Click"/>
         <Button x:Name="Minimize" Content="_" HorizontalAlignment="Left" Margin="444,10,0,0" VerticalAlignment="Top" Width="75" Click="Minimize_Click"/>
         <Button x:Name="EventsButton" Content="События" HorizontalAlignment="Left" Margin="500,65,0,0" VerticalAlignment="Top" Width="75" Click="EventsButton_Click"/>

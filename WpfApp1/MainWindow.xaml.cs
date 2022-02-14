@@ -59,5 +59,10 @@ namespace WpfApp1
             this.Close();
            
         }
+
+        private void nonClientArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }
