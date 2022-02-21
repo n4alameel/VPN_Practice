@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AdditionalSlotsWindow.xaml.cs">
+      <DependentUpon>AdditionalSlotsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="AppWindow.xaml.cs">
       <DependentUpon>AppWindow.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,9 @@
     <Compile Include="MonoDefenseWindow.xaml.cs">
       <DependentUpon>MonoDefenseWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PersonalServerWindow.xaml.cs">
+      <DependentUpon>PersonalServerWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PremiumWindow.xaml.cs">
       <DependentUpon>PremiumWindow.xaml</DependentUpon>
     </Compile>
@@ -86,6 +92,10 @@
       <DependentUpon>ServersWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="vpn.cs" />
+    <Page Include="AdditionalSlotsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="AppWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -123,6 +133,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="MonoDefenseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonalServerWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

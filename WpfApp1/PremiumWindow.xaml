@@ -16,8 +16,8 @@
         <Button x:Name="Infinity" Content="Вечность" HorizontalAlignment="Left" Margin="31,181,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="Infinity_Click"/>
         <Button x:Name="_7days" Content="7 дней" HorizontalAlignment="Left" Margin="31,238,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="_7days_Click"/>
         <Button x:Name="_1month" Content="1 месяц" HorizontalAlignment="Left" Margin="31,295,0,0" VerticalAlignment="Top" Width="543" Height="57" Click="_1month_Click"/>
-        <Button x:Name="PersonalServer" Content="Личный сервер" HorizontalAlignment="Left" Margin="31,426,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
+        <Button x:Name="PersonalServer" Content="Личный сервер" HorizontalAlignment="Left" Margin="31,426,0,0" VerticalAlignment="Top" Width="543" Height="46" Click="PersonalServer_Click"/>
         <Button x:Name="PersonalIP" Content="Личный IP" HorizontalAlignment="Left" Margin="31,498,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
-        <Button x:Name="AdditionalSlots" Content="Доп. слоты" HorizontalAlignment="Left" Margin="31,567,0,0" VerticalAlignment="Top" Width="543" Height="46"/>
+        <Button x:Name="AdditionalSlots" Content="Доп. слоты" HorizontalAlignment="Left" Margin="31,567,0,0" VerticalAlignment="Top" Width="543" Height="46" Click="AdditionalSlots_Click"/>
     </Grid>
 </Window>

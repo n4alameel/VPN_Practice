@@ -23,6 +23,7 @@ namespace WpfApp1
         public MenuWindow()
         {
             InitializeComponent();
+            
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

@@ -54,10 +54,27 @@ namespace WpfApp1
 
         private void LogIn_Click(object sender, RoutedEventArgs e)
         {
-            AppWindow window1 = new AppWindow();
-            window1.Show();
-            this.Close();
-           
+            Email.BorderBrush = Brushes.Gray;
+            Password.BorderBrush = Brushes.Gray;
+            if (Email.Text.Length == 0 && Password.Password.Length == 0)
+            {
+                Email.BorderBrush = Brushes.Red;
+                Password.BorderBrush = Brushes.Red;
+            }
+            else if (Email.Text.Length==0 && Password.Password.Length!=0)
+            {
+                Email.BorderBrush = Brushes.Red;
+            }
+            else if (Email.Text.Length != 0 && Password.Password.Length == 0)
+            {
+                Password.BorderBrush = Brushes.Red;
+            }
+            else
+            {
+                AppWindow window1 = new AppWindow();
+                window1.Show();
+                this.Close();
+            }
         }
 
         private void nonClientArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

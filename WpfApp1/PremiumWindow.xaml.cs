@@ -94,5 +94,21 @@ namespace WpfApp1
             buySubscribeWindow.Choice.Content = "1 месяц \n $11.99 \n Оплачивается ежемесячно";
             buySubscribeWindow.Upgrade.Content = "MonoDefense 1 месяц \n $14.99 \n Оплачивается ежемесячно";
         }
+
+        private void AdditionalSlots_Click(object sender, RoutedEventArgs e)
+        {
+            AdditionalSlotsWindow additionalSlotsWindow = new AdditionalSlotsWindow();
+            additionalSlotsWindow.Owner = this;
+            this.Hide();
+            additionalSlotsWindow.Show();
+        }
+
+        private void PersonalServer_Click(object sender, RoutedEventArgs e)
+        {
+            PersonalServerWindow personalServerWindow = new PersonalServerWindow();
+            personalServerWindow.Owner = this;
+            this.Hide();
+            personalServerWindow.Show();
+        }
     }
 }

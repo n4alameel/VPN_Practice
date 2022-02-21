@@ -23,13 +23,14 @@ namespace WpfApp1
         {
             InitializeComponent();
             Stop.Visibility = Visibility.Hidden;
-            vpn v = new vpn("w");
+            
         }
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
             Start.Visibility = Visibility.Hidden;
             Stop.Visibility = Visibility.Visible;
+            
             
         }
 

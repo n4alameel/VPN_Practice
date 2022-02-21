@@ -24,6 +24,7 @@ namespace WpfApp1
         {
             InitializeComponent();
             Choice.IsChecked = true;
+           
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

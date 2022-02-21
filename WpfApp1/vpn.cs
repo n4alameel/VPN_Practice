@@ -17,5 +17,5 @@ namespace WpfApp1
         public bool getState() { return state; }
         public void setState(bool st) { state = st; }
 
-    }
-}
+    } 
+} 
